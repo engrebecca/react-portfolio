@@ -1,0 +1,14 @@
+.bg-img {
+    background-image: url("https://images.unsplash.com/photo-1560780552-ba54683cb263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.cormorant-font {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+
+#jumbo-text{
+    font-size: 100px;
+}

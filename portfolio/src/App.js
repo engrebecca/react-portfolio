@@ -3,6 +3,7 @@ import Projects from "./projects.json";
 import ProjectContext from "./utils/projectContext";
 import Project from "../src/components/Project";
 import Header from "../src/components/Header";
+import Jumbotron from "../src/components/Jumbotron";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     return (
         <div>
             <Header></Header>
+            <Jumbotron></Jumbotron>
             <ProjectContext.Provider value={projects}>
                 <Project></Project>
             </ProjectContext.Provider>

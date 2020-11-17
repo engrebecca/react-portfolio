@@ -5,7 +5,7 @@ import "./style.css";
 function Project() {
     const projects = useContext(ProjectContext);
 
-    // Returns a row for each employee in the employees array which can be updated based on a user set filter or sort
+    // Returns a card for each project in the projects array
     return (
         <main className="container mt-5 mb-5 flex-shrink-0 content">
             <div className="row">
