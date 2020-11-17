@@ -14,13 +14,13 @@ function Project() {
                         <div className="card-group">
                             <div className="card m-3 border-0">
                                 <>{projects.map((project, i) => (
-                                    <div className="container" key={i}>
+                                    <div className="container text-center" key={i}>
                                         <a href={project.deployLink} target="_blank"><img className="card-img-top border border-dark" src={project.image} alt={project.title} data-aos="fade-up" data-aos-delay="50" /></a>
                                         <h4 className="text-center m-4 cormorant-font sub-text">{project.title}</h4>
                                         <p className="cormorant-font text-center px-5">{project.description}</p>
-                                        <span className="text-center mb-5">
-                                            <a href={project.githubLink} className="text-center text-secondary m-2 cormorant-font" target="_blank">GitHub</a>
-                                            <a href={project.deployLink} className="text-center text-secondary m-2 cormorant-font" target="_blank">See It Online</a>
+                                        <span className="mb-5">
+                                            <a href={project.githubLink} className="text-secondary m-2 cormorant-font" target="_blank">GitHub</a>
+                                            <a href={project.deployLink} className="text-secondary m-2 cormorant-font" target="_blank">See It Online</a>
                                         </span>
                                     </div>
                                 ))

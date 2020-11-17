@@ -7,6 +7,8 @@ import Wrapper from "../src/components/Wrapper";
 import Header from "../src/components/Header";
 import Jumbotron from "../src/components/Jumbotron";
 import Footer from "../src/components/Footer";
+// import About from "./pages/About";
+// import Contact from "./pages/Contact";
 
 
 function App() {
@@ -19,7 +21,6 @@ function App() {
     }, []);
 
     return (
-        // <Router>
         <div>
             <Header></Header>
             <Jumbotron></Jumbotron>
@@ -30,7 +31,6 @@ function App() {
             </Wrapper>
             <Footer></Footer>
         </div >
-        // </Router>
     );
 }
 
