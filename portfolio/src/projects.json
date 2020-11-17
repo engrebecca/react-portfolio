@@ -26,7 +26,7 @@
     {
         "id": 4,
         "title": "Fitness Tracker",
-        "description": "A fitness app that allows users to track their workouts.",
+        "description": "A fitness app using MongoDB that allows users to track their workouts.",
         "deployLink": "https://shielded-everglades-57807.herokuapp.com/",
         "githubLink": "https://github.com/engrebecca/fitness-tracker",
         "image": "fitness_tracker.png"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "title": "Burger Eater",
-        "description": "A restaurant app that allows users to create and 'devour' burgers.",
+        "description": "A restaurant app utilizing Handlebars.js that allows users to create and 'devour' burgers.",
         "deployLink": "https://gentle-ravine-75501.herokuapp.com/",
         "githubLink": "https://github.com/engrebecca/burger-eater",
         "image": "Burger_Eater.png"
