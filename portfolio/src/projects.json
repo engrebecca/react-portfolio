@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "XPLORE",
+        "description": "A travel website that allows users to research cities and discover top sights and restaurants. Users can sign up, save unique trips, and share trips with friends.",
+        "deployLink": "https://shrieking-nightmare-37185.herokuapp.com/",
+        "githubLink": "https://github.com/engrebecca/XPLORE",
+        "image": "XPLORE.png"
+    },
+    {
+        "id": 2,
+        "title": "Yelp for Help",
+        "description": "A program built using the Yelp and FOIA APIs. Allows users to search for restaurants and local auto theft rates to determine if an area is safe to park.",
+        "deployLink": "https://engrebecca.github.io/yelp-for-help/",
+        "githubLink": "https://github.com/engrebecca/yelp-for-help",
+        "image": "YelpForHelp.png"
+    },
+    {
+        "id": 3,
+        "title": "Music Album Memory Game",
+        "description": "A React app that tests users' memory and keeps track of images that have been clicked in a game.",
+        "deployLink": "https://engrebecca.github.io/memory-game/",
+        "githubLink": "https://github.com/engrebecca/memory-game",
+        "image": "memory_game.png"
+    },
+    {
+        "id": 4,
+        "title": "Fitness Tracker",
+        "description": "A fitness app that allows users to track their workouts.",
+        "deployLink": "https://shielded-everglades-57807.herokuapp.com/",
+        "githubLink": "https://github.com/engrebecca/fitness-tracker",
+        "image": "fitness_tracker.png"
+    },
+    {
+        "id": 5,
+        "title": "Burger Eater",
+        "description": "A restaurant app that allows users to create and 'devour' burgers.",
+        "deployLink": "https://gentle-ravine-75501.herokuapp.com/",
+        "githubLink": "https://github.com/engrebecca/burger-eater",
+        "image": "Burger_Eater.png"
+    },
+    {
+        "id": 6,
+        "title": "Weather Dashboard",
+        "description": "A weather dashboard built using the Open Weather API to display weather conditions based on user inputs.",
+        "deployLink": "https://engrebecca.github.io/weather-dashboard/",
+        "githubLink": "https://github.com/engrebecca/weather-dashboard",
+        "image": "WeatherDashboard.png"
+    }
+]
