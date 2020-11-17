@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Projects from "./projects.json";
 import ProjectContext from "./utils/projectContext";
 import Project from "../src/components/Project";
@@ -7,8 +7,8 @@ import Wrapper from "../src/components/Wrapper";
 import Header from "../src/components/Header";
 import Jumbotron from "../src/components/Jumbotron";
 import Footer from "../src/components/Footer";
-// import About from "./pages/About";
-// import Contact from "./pages/Contact";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 
 function App() {
@@ -21,16 +21,20 @@ function App() {
     }, []);
 
     return (
-        <div>
+        <Router>
             <Header></Header>
             <Jumbotron></Jumbotron>
             <Wrapper>
-                <ProjectContext.Provider value={projects}>
-                    <Project></Project>
-                </ProjectContext.Provider>
+                <Switch>
+                    <Route path="/portfolio" exact>
+                        <ProjectContext.Provider value={projects}>
+                            <Project></Project>
+                        </ProjectContext.Provider>
+                    </Route>
+                </Switch>
             </Wrapper>
             <Footer></Footer>
-        </div >
+        </Router>
     );
 }
 

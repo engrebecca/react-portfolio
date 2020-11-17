@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./style.css";
 
 function Header() {
@@ -16,14 +17,14 @@ function Header() {
             <div className="collapse navbar-collapse text-secondary" id="navbarTogglerDemo02">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                        <a className="nav-link cormorant-font" id="index" href="/">About</a>
-                    </li>
-                    <li className="nav-item active">
-                        <a className="nav-link cormorant-font" id="portfolio" href="/portfolio">Portfolio <span
-                            className="sr-only">(current)</span></a>
+                        <NavLink className="nav-link cormorant-font" id="index" to="/" exact>About</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link cormorant-font" id="contact" href="/contact">Contact</a>
+                        <NavLink className="nav-link cormorant-font" id="portfolio" to="/portfolio">Portfolio <span
+                            className="sr-only">(current)</span></NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink className="nav-link cormorant-font" id="contact" to="/contact">Contact</NavLink>
                     </li>
                 </ul>
             </div>
