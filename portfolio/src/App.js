@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Projects from "./projects.json";
 import ProjectContext from "./utils/projectContext";
 import Project from "../src/components/Project";
+import Header from "../src/components/Header";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 
     return (
         <div>
+            <Header></Header>
             <ProjectContext.Provider value={projects}>
                 <Project></Project>
             </ProjectContext.Provider>
