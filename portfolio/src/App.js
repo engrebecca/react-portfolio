@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Projects from "./projects.json";
+import ProjectContext from "./utils/projectContext";
+import Project from "../src/components/Project";
+
 
 function App() {
     // useState hook
@@ -12,7 +15,9 @@ function App() {
 
     return (
         <div>
-            <p>Hello</p>
+            <ProjectContext.Provider value={projects}>
+                <Project></Project>
+            </ProjectContext.Provider>
         </div >
     );
 }
