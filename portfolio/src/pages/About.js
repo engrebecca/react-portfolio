@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function About() {
     return (<main className="flex-shrink-0 content">
@@ -26,8 +27,8 @@ function About() {
                                         management to bring a unique perspective on creating products to better serve users.
                                 <br /><br /> If you are a business seeking to build web presence or an employer looking to
                                 hire, you can view my <a href="Eng Rebecca Resume_11.7.20.pdf" target="_blank"
-                                    className="text-secondary">resume</a> and reach me <a href="/contact"
-                                        className="text-secondary">here</a> or at the below links.</p>
+                                    className="text-body underline">resume</a> and reach me <a href="/contact"
+                                        className="text-body underline">here</a> or at the below links.</p>
                         </div>
                     </div>
                 </div>
