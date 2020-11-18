@@ -2,11 +2,6 @@
     font-size: 35px;
 }
 
-.cormorant-font {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
-}
-
 /* To keep menu open when using navbar toggler */
 .navbar-collapse.collapse.in {
     display: block!important;
