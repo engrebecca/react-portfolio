@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import Projects from "./projects.json";
 import ProjectContext from "./utils/projectContext";
 import Project from "../src/components/Project";
@@ -22,24 +22,27 @@ function App() {
 
     return (
         <Router>
-            <Header></Header>
-            <Jumbotron></Jumbotron>
+            <Header />
+            <Jumbotron />
             <Wrapper>
                 <Switch>
                     <Route path="/portfolio" exact>
                         <ProjectContext.Provider value={projects}>
-                            <Project></Project>
+                            <Project />
                         </ProjectContext.Provider>
                     </Route>
-                    <Route path={["/", "/about"]} exact>
-                        <About></About>
+                    <Route path="/" exact>
+                        <About />
                     </Route>
                     <Route path="/contact" exact>
-
+                        <Contact />
+                    </Route>
+                    <Route path="*">
+                        <Redirect to="/" />
                     </Route>
                 </Switch>
             </Wrapper>
-            <Footer></Footer>
+            <Footer />
         </Router>
     );
 }
