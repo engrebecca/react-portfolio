@@ -2,15 +2,14 @@ import React from "react";
 
 function Contact() {
     return (
-        <main className="flex-shrink-0 content">
+        <main className="flex-shrink-0 content" data-aos="fade-down" data-aos-delay="50">
             {/* Let's get in touch sub title */}
             <div className="container">
-                <h1 className="border-bottom cormorant-font sub-text text-center" data-aos="fade-down"
-                    data-aos-delay="50">Let's get in touch!</h1>
+                <h1 className="border-bottom cormorant-font sub-text text-center">Let's get in touch!</h1>
             </div>
             <div className="container mt-5 mb-5 text-center">
                 <div class="row">
-                    <div class="col-sm" data-aos="fade-down" data-aos-delay="50">
+                    <div class="col-sm" >
                         {/* Email */}
                         <div className="card border-0" style={{ width: "18rem" }}>
                             <div className="card-body">
@@ -20,7 +19,7 @@ function Contact() {
                         </div>
                     </div>
                     {/* Phone */}
-                    <div class="col-sm" data-aos="fade-down" data-aos-delay="50">
+                    <div class="col-sm" >
                         <div className="card border-0" style={{ width: "18rem" }}>
                             <div className="card-body">
                                 <i className="fas fa-phone fa-5x"></i>
@@ -29,7 +28,7 @@ function Contact() {
                         </div>
                     </div>
                     {/* Resume */}
-                    <div class="col-sm" data-aos="fade-down" data-aos-delay="50">
+                    <div class="col-sm" >
                         <div className="card border-0" style={{ width: "18rem" }}>
                             <div className="card-body">
                                 <a href="Eng Rebecca Resume_11.7.20.pdf" target="_blank" rel="noreferrer" className="text-body">
@@ -39,7 +38,7 @@ function Contact() {
                         </div>
                     </div>
                     {/* LinkedIn */}
-                    <div class="col-sm" data-aos="fade-down" data-aos-delay="50">
+                    <div class="col-sm" >
                         <div className="card border-0" style={{ width: "18rem" }}>
                             <div className="card-body">
                                 <a href="https://www.linkedin.com/in/engrebecca/" target="_blank" rel="noreferrer" className="text-body"><i
@@ -49,7 +48,7 @@ function Contact() {
                         </div>
                     </div>
                     {/* GitHub */}
-                    <div class="col-sm" data-aos="fade-down" data-aos-delay="50">
+                    <div class="col-sm" >
                         <div className="card border-0" style={{ width: "18rem" }}>
                             <div className="card-body">
                                 <a href="https://github.com/engrebecca" target="_blank" rel="noreferrer" className="text-body"><i
