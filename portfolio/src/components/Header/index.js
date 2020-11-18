@@ -5,9 +5,15 @@ import "./style.css";
 function Header() {
 
     return (
-        <nav className="navbar navbar-expand-md navbar-light bg-white">
+        <nav className="navbar navbar-expand-md navbar-light bg-body">
             {/* Name in navbar */}
             <NavLink className="navbar-brand cormorant-font" id="nav-text" to="/">Rebecca Eng</NavLink>
+            {/* Icon links */}
+            <a href="https://www.linkedin.com/in/engrebecca/" target="_blank" rel="noreferrer" className="text-body"><i
+                className="fab fa-linkedin fa-lg mr-3"></i></a>
+            <a href="mailto:reng412@gmail.com" className="text-body"><i className="far fa-envelope fa-lg mr-3"></i></a>
+            <a href="https://github.com/engrebecca" target="_blank" rel="noreferrer" className="text-body"><i
+                className="fab fa-github fa-lg mr-3"></i></a>
             {/* Toggle button in navbar */}
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
