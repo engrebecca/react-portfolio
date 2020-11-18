@@ -25,7 +25,7 @@ function About() {
                                         impact. I’m excited to combine my web development skills with my background in product
                                         management to bring a unique perspective on creating products to better serve users.
                                 <br /><br /> If you are a business seeking to build web presence or an employer looking to
-                                hire, you can view my <a href="assets/Rebecca SE Resume_10.5.20.pdf" target="_blank"
+                                hire, you can view my <a href="Eng Rebecca Resume_11.7.20.pdf" target="_blank"
                                     className="text-secondary">resume</a> and reach me <a href="/contact"
                                         className="text-secondary">here</a> or at the below links.</p>
                         </div>
