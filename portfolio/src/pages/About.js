@@ -12,7 +12,7 @@ function About() {
                 <div className="col-sm d-flex">
                     <div className="card p-3 border-0" style={{ width: "40rem" }}>
                         <div className="container">
-                            <h1 className="border-bottom cormorant-font header-text text-center" data-aos="fade-down"
+                            <h1 className="border-bottom cormorant-font sub-text text-center" data-aos="fade-down"
                                 data-aos-delay="50">Welcome</h1>
                         </div>
                         <div className="card-body" data-aos="fade-down" data-aos-delay="50">
