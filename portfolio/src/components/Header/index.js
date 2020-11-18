@@ -7,7 +7,7 @@ function Header() {
     return (
         <nav className="navbar navbar-expand-md navbar-light bg-white">
             {/* Name in navbar */}
-            <a className="navbar-brand cormorant-font" id="nav-text" href="/">Rebecca Eng</a>
+            <NavLink className="navbar-brand cormorant-font" id="nav-text" to="/">Rebecca Eng</NavLink>
             {/* Toggle button in navbar */}
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
