@@ -31,6 +31,12 @@ function App() {
                             <Project></Project>
                         </ProjectContext.Provider>
                     </Route>
+                    <Route path={["/", "/about"]} exact>
+                        <About></About>
+                    </Route>
+                    <Route path="/contact" exact>
+
+                    </Route>
                 </Switch>
             </Wrapper>
             <Footer></Footer>
