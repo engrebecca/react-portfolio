@@ -16,3 +16,25 @@
     float: none;
     margin-bottom: 10px;
 }
+
+/* Sets HTML and body height to 100% */
+html, body {
+    height: 100%;
+}
+
+/* Body properties for sticky footer */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Content class for sticky footer */
+.content {
+    flex: 1 0 auto;
+}
+
+/* Footer property for sticky footer */
+.footer {
+    flex-shrink: 0;
+    background-color: black;
+}
