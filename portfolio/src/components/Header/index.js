@@ -20,8 +20,7 @@ function Header() {
                         <NavLink className="nav-link cormorant-font" id="index" to="/" exact>About</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link cormorant-font" id="portfolio" to="/portfolio">Portfolio <span
-                            className="sr-only">(current)</span></NavLink>
+                        <NavLink className="nav-link cormorant-font" id="portfolio" to="/portfolio">Portfolio</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink className="nav-link cormorant-font" id="contact" to="/contact">Contact</NavLink>
