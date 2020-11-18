@@ -10,3 +10,13 @@
 .underline{
     text-decoration: underline;
 }
+
+.sub-text{
+    font-size: 30px;
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
