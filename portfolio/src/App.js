@@ -22,26 +22,28 @@ function App() {
 
     return (
         <Router>
-            <Header />
-            <Jumbotron />
-            <Wrapper>
-                <Switch>
-                    <Route path="/portfolio" exact>
-                        <ProjectContext.Provider value={projects}>
-                            <Project />
-                        </ProjectContext.Provider>
-                    </Route>
-                    <Route path="/" exact>
-                        <About />
-                    </Route>
-                    <Route path="/contact" exact>
-                        <Contact />
-                    </Route>
-                    <Route path="*">
-                        <Redirect to="/" />
-                    </Route>
-                </Switch>
-            </Wrapper>
+            <div className="body">
+                <Header />
+                <Jumbotron />
+                <Wrapper>
+                    <Switch>
+                        <Route path="/portfolio" exact>
+                            <ProjectContext.Provider value={projects}>
+                                <Project />
+                            </ProjectContext.Provider>
+                        </Route>
+                        <Route path="/" exact>
+                            <About />
+                        </Route>
+                        <Route path="/contact" exact>
+                            <Contact />
+                        </Route>
+                        <Route path="*">
+                            <Redirect to="/" />
+                        </Route>
+                    </Switch>
+                </Wrapper>
+            </div>
             <Footer />
         </Router>
     );
