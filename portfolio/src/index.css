@@ -17,16 +17,12 @@
     margin-bottom: 10px;
 }
 
-/* Sets HTML and body height to 100% */
-html, body {
-    height: 100%;
-}
-
 /* Body properties for sticky footer */
-.body {
+/* view height (vh) is the height of the user's window */
+#root {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 100vh;
 }
 
 /* Content class for sticky footer */

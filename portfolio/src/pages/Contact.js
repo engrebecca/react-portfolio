@@ -10,10 +10,10 @@ function Contact() {
                         <h1 className="border-bottom cormorant-font sub-text text-center" data-aos="fade-down"
                             data-aos-delay="50">Let's get in touch!</h1>
                     </div>
-                    <div className="card-body text-center" data-aos="fade-down" data-aos-delay="50">
+                    {/* <div className="card-body text-center" data-aos="fade-down" data-aos-delay="50">
                         <p className="card-text cormorant-font">
                             Interested in doing a project together? <br /> Want to learn more about my work? <br /> <br /> I can be reached at the below email or phone number. <br /> Let's connect on LinkedIn and GitHub. </p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className="container mt-5 mb-5 text-center">
