@@ -12,7 +12,7 @@
         "title": "Google Books Search",
         "description": "A React app that allows users to search for books through the Google Books API. Users can save their favorites to a saved list, they can also delete books from their list.",
         "deployLink": "https://thawing-ravine-44987.herokuapp.com/",
-        "githubLink": "https://github.com/engrebecca/google-book-search-mern",
+        "githubLink": "https://github.com/engrebecca/google-books",
         "image": "google_books.png"
     },
     {
