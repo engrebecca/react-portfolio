@@ -20,25 +20,16 @@ function Contact() {
                 <div className="row">
                     <div className="col-sm" >
                         {/* Email */}
-                        <div className="card border-0" style={{ width: "18rem" }}>
+                        <div className="card border-0" style={{ width: "12rem" }}>
                             <div className="card-body">
                                 <a href="mailto:reng412@gmail.com" className="text-body"><i className="far fa-envelope fa-5x"></i></a>
                                 <p className="card-text cormorant-font">reng412@gmail.com</p>
                             </div>
                         </div>
                     </div>
-                    {/* Phone */}
-                    <div className="col-sm" >
-                        <div className="card border-0" style={{ width: "18rem" }}>
-                            <div className="card-body">
-                                <i className="fas fa-phone fa-5x"></i>
-                                <p className="card-text cormorant-font">(510) 473-2267</p>
-                            </div>
-                        </div>
-                    </div>
                     {/* Resume */}
                     <div className="col-sm" >
-                        <div className="card border-0" style={{ width: "18rem" }}>
+                        <div className="card border-0" style={{ width: "12rem" }}>
                             <div className="card-body">
                                 <a href="Eng Rebecca Resume Stylized.pdf" target="_blank" rel="noreferrer" className="text-body">
                                     <i className="far fa-file fa-5x"></i></a>
@@ -48,7 +39,7 @@ function Contact() {
                     </div>
                     {/* LinkedIn */}
                     <div className="col-sm" >
-                        <div className="card border-0" style={{ width: "18rem" }}>
+                        <div className="card border-0" style={{ width: "12rem" }}>
                             <div className="card-body">
                                 <a href="https://www.linkedin.com/in/engrebecca/" target="_blank" rel="noreferrer" className="text-body"><i
                                     className="fab fa-linkedin fa-5x"></i></a>
@@ -58,7 +49,7 @@ function Contact() {
                     </div>
                     {/* GitHub */}
                     <div className="col-sm" >
-                        <div className="card border-0" style={{ width: "18rem" }}>
+                        <div className="card border-0" style={{ width: "12rem" }}>
                             <div className="card-body">
                                 <a href="https://github.com/engrebecca" target="_blank" rel="noreferrer" className="text-body"><i
                                     className="fab fa-github fa-5x"></i></a>
