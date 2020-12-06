@@ -40,7 +40,7 @@ function Contact() {
                     <div className="col-sm" >
                         <div className="card border-0" style={{ width: "18rem" }}>
                             <div className="card-body">
-                                <a href="Eng Rebecca Resume_11.7.20.pdf" target="_blank" rel="noreferrer" className="text-body">
+                                <a href="Eng Rebecca Resume Stylized.pdf" target="_blank" rel="noreferrer" className="text-body">
                                     <i className="far fa-file fa-5x"></i></a>
                                 <p className="card-text cormorant-font">Resume</p>
                             </div>
