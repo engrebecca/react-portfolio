@@ -19,8 +19,7 @@ function About() {
                             <p className="card-text cormorant-font">
                                 Hi there! My name is Rebecca Eng. I'm a full stack
                                 software engineer
-                                based in San Francisco, California. <br /> <br /> I'm pursuing a certification in full stack
-                                    web development from UC Berkeley Extension. I have skills in HTML, CSS , JavaScript, and
+                                based in San Francisco, California. <br /> <br /> I have a B.A in International Business and Spanish with a certificate in Full Stack Web Development from UC Berkeley Extension. I have skills in HTML, CSS , JavaScript, and
                                 Python with strengths in problem solving and project management. <br /> <br /> I'm
                                         passionate about solving user needs and using technology to create a positive social
                                         impact. I’m excited to combine my web development skills with my background in product
