@@ -16,7 +16,7 @@ function Header() {
                 className="fab fa-github fa-lg mr-3"></i></a>
             {/* Toggle button in navbar */}
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" href="#">
                 <span className="navbar-toggler-icon"></span>
             </button>
             {/* Navbar menu links */}
