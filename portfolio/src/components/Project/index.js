@@ -1,7 +1,5 @@
 import React, { useContext } from "react";
-import {
-    Container, Row, Col, Card, CardText, CardBody
-} from 'reactstrap';
+import { Container, Row, Col, Card, CardBody } from 'reactstrap';
 import ProjectContext from "../../utils/projectContext";
 
 function Project() {
