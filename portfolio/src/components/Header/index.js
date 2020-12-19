@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Link } from "react-router-dom";
 import "./style.css";
 
 function Header() {
@@ -23,13 +24,13 @@ function Header() {
                 <Collapse isOpen={!collapsed} navbar>
                     <Nav navbar>
                         <NavItem>
-                            <NavLink className="nav-link cormorant-font" id="index" href="/" exact>About</NavLink>
+                            <NavLink tag={Link} className="nav-link cormorant-font" id="index" to="/" exact>About</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link cormorant-font" id="portfolio" href="/portfolio">Portfolio</NavLink>
+                            <NavLink tag={Link} className="nav-link cormorant-font" id="portfolio" to="/portfolio">Portfolio</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link cormorant-font" id="contact" href="/contact">Contact</NavLink>
+                            <NavLink tag={Link} className="nav-link cormorant-font" id="contact" to="/contact">Contact</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>
