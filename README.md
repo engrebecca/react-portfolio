@@ -9,9 +9,9 @@ Welcome to my portfolio! I created this website to display projects that demonst
     * The header and footer components are rendered to every page
     * React Router dynamically renders the about, contact, or portfolio page based on what a user selects from the navbar 
 
-* Bootstrap was used to create the responsive layout of this website
-    * The navbar at the top of each page renders as a toggle button on smaller screens and as links on larger screens
-    * Boxes and their content resize to fit the size of any screen
+* Reactstrap was used to create components for a mobile responsive layout
+    * The navbar at the top of each page renders as a toggle button to display a dropdown menu on all screen sizes
+    * Boxes and their content resize to fit the size of any size screen
 
 * The Bootstrap grid system was used to create a series of containers, rows, and columns in order to produce a responsive layout
     * The about page is comprised of a container that holds a row with columns to display the image and card with text
@@ -26,7 +26,7 @@ Welcome to my portfolio! I created this website to display projects that demonst
 * [React](https://reactjs.org/)- JavaScript library for building user interfaces
 * [Express](https://expressjs.com/)- back end web application framework for Node.js for building web applications and APIs
 * [Node.js](https://nodejs.org/en/) - JavaScript runtime environment that executes JavaScript outside the web browser
-* [Bootstrap](https://getbootstrap.com/) - used to create the mobile responsive layout
+* [Reactstrap](https://reactstrap.github.io/) - used to create components for a mobile responsive layout
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - used to create the structure of the page
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - used to style HTML elements on the page
 * [AOS Library](https://michalsnik.github.io/aos/) - Animate on Scroll library used to animate images and cards when a user scrolls
