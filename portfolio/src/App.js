@@ -4,7 +4,8 @@ import Projects from "./projects.json";
 import ProjectContext from "./utils/projectContext";
 import Project from "../src/components/Project";
 import Wrapper from "../src/components/Wrapper";
-import Header from "../src/components/Header";
+// import Header from "../src/components/Header";
+import Navigation from "../src/components/Navbar";
 import Jumbotron from "../src/components/Jumbotron";
 import Footer from "../src/components/Footer";
 import About from "./pages/About";
@@ -23,7 +24,8 @@ function App() {
     return (
         <Router>
             <div className="body">
-                <Header />
+                {/* <Header /> */}
+                <Navigation />
                 <Jumbotron />
                 <Wrapper>
                     <Switch>
