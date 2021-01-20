@@ -17,6 +17,14 @@
     },
     {
         "id": 3,
+        "title": "Beauty of Insight",
+        "description": "A competitive market analysis tool built for beauty industry professionals.",
+        "deployLink": "https://beauty-insight.herokuapp.com/",
+        "githubLink": "https://github.com/engrebecca/beauty-insight",
+        "image": "beauty_insight.png"
+    },
+    {
+        "id": 4,
         "title": "Google Books Search",
         "description": "A React app that allows users to search for books through the Google Books API. Users can save their favorites to a saved list, they can also delete books from their list.",
         "deployLink": "https://thawing-ravine-44987.herokuapp.com/",
@@ -24,7 +32,7 @@
         "image": "google_books.png"
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Music Album Memory Game",
         "description": "A React app that tests users' memory and keeps track of images that have been clicked in a game.",
         "deployLink": "https://engrebecca.github.io/memory-game/",
@@ -32,7 +40,7 @@
         "image": "memory_game.png"
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Fitness Tracker",
         "description": "A fitness app using MongoDB that allows users to track their workouts.",
         "deployLink": "https://shielded-everglades-57807.herokuapp.com/",
@@ -40,7 +48,7 @@
         "image": "fitness_tracker.png"
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Yelp for Help",
         "description": "A program built using the Yelp and FOIA APIs. Allows users to search for restaurants and local auto theft rates to determine if an area is safe to park.",
         "deployLink": "https://engrebecca.github.io/yelp-for-help/",
@@ -48,7 +56,7 @@
         "image": "YelpForHelp.png"
     },
     {
-        "id": 7,
+        "id": 8,
         "title": "Burger Eater",
         "description": "A restaurant app utilizing Handlebars.js that allows users to create and 'devour' burgers.",
         "deployLink": "https://gentle-ravine-75501.herokuapp.com/",
@@ -56,7 +64,7 @@
         "image": "Burger_Eater.png"
     },
     {
-        "id": 8,
+        "id": 9,
         "title": "Weather Dashboard",
         "description": "A weather dashboard built using the Open Weather API to display weather conditions based on user inputs.",
         "deployLink": "https://engrebecca.github.io/weather-dashboard/",
