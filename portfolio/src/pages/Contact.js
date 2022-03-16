@@ -22,7 +22,7 @@ function Contact() {
                         {/* Email */}
                         <div className="card border-0" style={{ width: "12rem" }}>
                             <div className="card-body">
-                                <a href="mailto:reng412@gmail.com" className="text-body"><i className="far fa-envelope fa-5x"></i></a>
+                                <a href="mailto:reng412@gmail.com" className="text-body"><i className="far fa-envelope fa-5x contact-icon"></i></a>
                                 <p className="card-text cormorant-font">reng412@gmail.com</p>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ function Contact() {
                         <div className="card border-0" style={{ width: "12rem" }}>
                             <div className="card-body">
                                 <a href="Eng Rebecca Online Resume.pdf" target="_blank" rel="noreferrer" className="text-body">
-                                    <i className="far fa-file fa-5x"></i></a>
+                                    <i className="far fa-file fa-5x contact-icon"></i></a>
                                 <p className="card-text cormorant-font">Resume</p>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ function Contact() {
                         <div className="card border-0" style={{ width: "12rem" }}>
                             <div className="card-body">
                                 <a href="https://www.linkedin.com/in/engrebecca/" target="_blank" rel="noreferrer" className="text-body"><i
-                                    className="fab fa-linkedin fa-5x"></i></a>
+                                    className="fab fa-linkedin fa-5x contact-icon"></i></a>
                                 <p className="card-text cormorant-font">LinkedIn</p>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ function Contact() {
                         <div className="card border-0" style={{ width: "12rem" }}>
                             <div className="card-body">
                                 <a href="https://github.com/engrebecca" target="_blank" rel="noreferrer" className="text-body"><i
-                                    className="fab fa-github fa-5x"></i></a>
+                                    className="fab fa-github fa-5x contact-icon"></i></a>
                                 <p className="card-text cormorant-font">GitHub</p>
                             </div>
                         </div>
