@@ -1,7 +1,6 @@
 #nav-text {
   font-size: 35px;
-  color: #b9b7bd;
-  font-weight: 600;
+  color: #EEEDE7;
 }
 
 /* To keep menu open when using navbar toggler */
@@ -10,9 +9,13 @@
 }
 
 .nav-icon {
-  color: #b9b7bd !important;
+  color: #EEEDE7 !important;
 }
 
 .nav-link {
   color: #868b8e;
+}
+
+.nav-bar {
+  background-color:#B9B7BD !important;
 }

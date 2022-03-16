@@ -19,7 +19,7 @@ const Navigation = (props) => {
 
     return (
         <div>
-            <Navbar color="light" light expand="md">
+            <Navbar className="nav-bar" light expand="md">
                 {/* Name in navbar */}
                 <NavbarBrand href="/" className="mr-auto cormorant-font" id="nav-text">Rebecca Eng</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
