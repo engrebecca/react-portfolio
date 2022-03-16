@@ -38,10 +38,10 @@ const Navigation = (props) => {
                     </Nav>
                     {/* <NavbarText>Simple Text</NavbarText> */}
                     {/* Icon links */}
-                    <a href="https://www.linkedin.com/in/engrebecca/" target="_blank" rel="noreferrer" className="text-body"><i
+                    <a href="https://www.linkedin.com/in/engrebecca/" target="_blank" rel="noreferrer" className="nav-icon"><i
                         className="fab fa-linkedin fa-lg mr-3"></i></a>
-                    <a href="mailto:reng412@gmail.com" className="text-body"><i className="far fa-envelope fa-lg mr-3"></i></a>
-                    <a href="https://github.com/engrebecca" target="_blank" rel="noreferrer" className="text-body"><i
+                    <a href="mailto:reng412@gmail.com" className="nav-icon"><i className="far fa-envelope fa-lg mr-3"></i></a>
+                    <a href="https://github.com/engrebecca" target="_blank" rel="noreferrer" className="nav-icon"><i
                         className="fab fa-github fa-lg mr-3"></i></a>
                 </Collapse>
             </Navbar>
