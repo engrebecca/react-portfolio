@@ -1,37 +1,50 @@
 .cormorant-font {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
 }
 
-.underline{
-    text-decoration: underline;
+.underline {
+  text-decoration: underline;
 }
 
-.sub-text{
-    font-size: 30px;
+.sub-text {
+  font-size: 30px;
+  color: #b9b7bd;
 }
 
 .card {
-    margin: 0 auto;
-    float: none;
-    margin-bottom: 10px;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #868b8e;
+}
+
+.about-link {
+  color: #b9b7bd !important;
 }
 
 /* Body properties for sticky footer */
 /* view height (vh) is the height of the user's window */
 #root {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 /* Content class for sticky footer */
 .content {
-    flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 /* Footer property for sticky footer */
 .footer {
-    flex-shrink: 0;
-    background-color: black;
+  flex-shrink: 0;
+  background-color: #b9b7bd;
+}
+
+.footer-text {
+  color: #eeede7 !important;
 }
