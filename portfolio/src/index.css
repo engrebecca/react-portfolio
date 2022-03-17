@@ -30,6 +30,12 @@
   color: #b9b7bd !important;
 }
 
+.project-border {
+  border-style: solid;
+  border-color: #b9b7bd;
+  border-radius: 5px;
+}
+
 /* Body properties for sticky footer */
 /* view height (vh) is the height of the user's window */
 #root {

@@ -14,7 +14,7 @@ function Project() {
                         <CardBody>
                             <>{projects.map((project, i) => (
                                 <div className="container text-center project mb-5" key={i}>
-                                    <a href={project.deployLink} target="_blank" rel="noreferrer"><img className="card-img-top border border-dark" src={project.image} alt={project.title} data-aos="fade-up" data-aos-delay="50" /></a>
+                                    <a href={project.deployLink} target="_blank" rel="noreferrer"><img className="card-img-top project-border" src={project.image} alt={project.title} data-aos="fade-up" data-aos-delay="50" /></a>
                                     <h4 className="text-center m-4 cormorant-font sub-text">{project.title}</h4>
                                     <p className="cormorant-font text-center px-5 paragraph-text">{project.description}</p>
                                     <span>
